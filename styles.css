@@ -11,6 +11,16 @@ header {
     padding: 20px 550px;
 }
 
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: #e0e0e0;
+    margin: 0; 
+    font-size: 36px;
+}
+
 header h2 {
     text-decoration: underline;
     margin: 0;
