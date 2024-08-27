@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson - Dev-Anderson</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><h1>Anderson Silva</h1></a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="../sobre/sobre.html">Sobre</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="post.html">Posts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="content">
+        <h2>Live reload em Golang</h2>
+        <p>Antes de mais nada é necessário instalar o AIR na máquina, para isso siga os seguintes passos:</p>
+        <ol>
+            <li>Rodar o seguinte comando <code>go install github.com/cosmtrek/air@latest</code></li>
+            <li>Com um projeto aberto, basta rodar os seguinte comando para iniciar <code>air init</code></li>
+            <li>Com isso irá criar os seguintes arquivos</li>
+            <ul>
+                <li><code>tmp</code> = Fica o executável que foi feito o build;</li>
+                <li><code>air.toml</code> = Arquivo com as configurações para rodar o projeto;</li>
+            </ul>
+            <li>Rodar o seguinte comando <code>air</code>, logo depois deverá rodar o AIR nesse projeto</li>
+            <li>Qualquer alteração dentro do arquivo <code>"main.go"</code> deverá fazer o build novamente do app</li>
+        </ol>
+    </div>
+</body>
+</html>

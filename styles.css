@@ -28,6 +28,43 @@ header h2 {
     font-weight: bold;
 }
 
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: left;
+}
+
+.content h2 {
+    margin-bottom: 15px;
+}
+
+.content p, .content ol, .content ul {
+    margin-bottom: 15px;
+}
+
+code {
+    background-color: #303030;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #FFA500;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0 0 0 0;
@@ -62,6 +99,7 @@ nav a:hover {
     max-width: 600px;
     margin: 10px auto;
     line-height: 1.6;
+    justify-content: center;
 }
 
 .intro nav  {
@@ -102,4 +140,43 @@ nav a:hover {
 
 .posts a:hover {
     text-decoration: underline;
+}
+
+.posts-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.posts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-item {
+    margin-bottom: 40px;
+}
+
+.post-date {
+    display: block;
+    font-size: 0.9em;
+    color: #606060;
+    margin-bottom: 5px;
+}
+
+.post-title {
+    display: block;
+    font-size: 1.5em;
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+.post-description {
+    font-size: 1em;
+    color: #909090;
+    margin-top: 10px;
+    margin-left: 15px;
 }
